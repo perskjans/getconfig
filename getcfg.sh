@@ -5,7 +5,7 @@
 #
 
 
-git clone --bare https://github.com/perskjans/.cfg.git
+git clone --bare https://github.com/perskjans/.cfg.git $HOME/.cfg.git
 
 args="--git-dir=$HOME/.cfg.git/ --work-tree=$HOME"
 
